@@ -22,7 +22,7 @@
     --space-3xl: 48px;
 
     /* Border Colors */
-    --border-primary-color: #333333;
+    --border-primary-color: #0c0909;
 
 
     /* Border Radius */
@@ -75,13 +75,13 @@ section .infos{
     border: 1px solid var(--border-primary-color);
     flex-grow: 1;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 30px);
-    grid-template-rows: repeat(auto-fill, 30px);
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(80px, 1fr));
     gap: 2px;
 }
 
 .block{
-    width: 30px;
-    height: 30px;
+    /* width: 30px;
+    height: 30px; */
     border: 1px solid var(--border-primary-color);
 }
